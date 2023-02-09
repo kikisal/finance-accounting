@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script defer src="accounting.js"></script>
+	<title>Expenses Database</title>
+</head>
+<body>
+	<div class="content-wrapper">
+		<div class="section-title">
+			<h2>Yearly Transactions By Item</h2>
+			<div class="entity-info"><span>Entity: </span><span --account-name>...</span></div>
+		</div>
+		<!--
+		<table>
+			<thead>
+				<tr>
+					<th><span>Item</span></th>
+					<th><span>Cost</span></th>
+				</tr>	
+			</thead>
+			<tbody>
+				<tr>
+					<td><span>PROVO Allenatore Mascella, Jaw Exerciser</span></td>
+					<td><span class="loss">-</span><span>9.49 EUR</span></td>
+				</tr>
+				<tr>
+					<td><span>Gym Diet <span class="count">(12)</span></span></td>
+					<td><span class="loss">-</span><span>0.00 EUR</span></td>
+				</tr>
+				<tr>
+					<td><span>Gym Subscription</span></td>
+					<td><span class="loss">-</span><span>100.00 EUR</span></td>
+				</tr>
+				<tr>
+					<td><span>Gym Suit <span class="count">(1)</span></span></td>
+					<td><span class="loss">-</span><span>61.94 EUR</span></td>
+				</tr>
+				<tr>
+					<th><span>Total</span></th>
+					<td class="total"><span class="loss">-</span><span>171.43 EUR</span></td>
+				</tr>
+			</tbody>
+		</table>
+		-->
+		<table>
+			<thead>
+				<tr>
+					<th><span>Item</span></th>
+					<th><span>Cost</span></th>
+				</tr>	
+			</thead>
+			<tbody --transactions>
+				<tr>
+					<td><span>Loading data...</span></td>
+					<td><span>Loading data...</span></td>	
+				</tr>
+			</tbody>
+		</table>
+		<!--	
+		<div class="balance-text">
+			<h1>Total Balance: <span style=
+				"color: #a9a9a9;text-shadow: 0 2px #161616;">36.00 EUR</span></h1>
+		</div>
+		-->
+	</div>
+</body>
+</html>
